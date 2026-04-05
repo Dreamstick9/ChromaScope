@@ -49,3 +49,28 @@ select {
 select:hover {
   background-color: #db890d;
 }
+
+.outer {
+  padding: 10px;
+}
+
+input {
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+.inner {
+  flex-wrap: wrap; 
+}
+
+select {
+  width: 100%;
+}
+@media (min-width: 600px) {
+  input {
+    width: 50%;
+  }
+  select {
+    width: auto;
+  }
+}

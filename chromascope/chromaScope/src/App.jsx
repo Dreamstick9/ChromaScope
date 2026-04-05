@@ -6,10 +6,11 @@ import './App.css'
 function App() {
   const [query, setQuery] = useState('')
   const [sort, setSort] = useState('')
+  const [filter, setFilter] = useState('all')
   return (
     <>
-    <Search setQuery={setQuery} setSort={setSort}/>
-    <Table query={query} sort={sort}/>
+    <Search setQuery={setQuery} setSort={setSort} setFilter = {setFilter}/>
+    <Table query={query} sort={sort} filter={filter}/>
 
     </>
   )
