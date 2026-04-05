@@ -11,7 +11,7 @@ input, label {
 }
 
 input {
-    width: 600px;
+    width: 50%;
     padding: 10px 15px;
     font-size: 1.5rem;
     font-family: 'Teko', sans-serif;
@@ -28,6 +28,24 @@ button {
 }
 
 button:hover {
-    background-color: black;
-    color: #db890d;
+    opacity: 0.89;
+}
+
+.inner{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+select {
+  padding: 6px 10px;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.5rem;
+  border: 3px solid black;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+}
+select:hover {
+  background-color: #db890d;
 }
