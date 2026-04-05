@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Search from './search-feature/search'
 import Table from './api-features/Table'
 import './App.css'
 
 function App() {
+  const [query, setQuery] = useState('')
   return (
     <>
-    <Search />
-    <Table />
+    <Search setQuery={setQuery}/>
+    <Table query={query}/>
 
     </>
   )
