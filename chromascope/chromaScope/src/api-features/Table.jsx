@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import fetchBlockInfo from './Blocks';
 import './Table.css'
 
-function Table({query}){
+function Table({query, sort}){
 
     const [data, showData] = useState([])
     useEffect(()=>{
@@ -11,7 +11,7 @@ function Table({query}){
         showData(result)
         })
     },[])
-     
+
 
     let searched = data.filter((i)=>{
         if (query==''){
@@ -19,6 +19,16 @@ function Table({query}){
         }
         return i.extras?.pool?.name?.toLowerCase().includes(query.toLowerCase())
     })
+    const final = [...searched].sort((a,b)=>{
+        if(sort=='fees'){
+            return b.extras.totalFees - a.extras.totalFees
+        }else if(sort == 'size'){
+            return b.size - a.size
+        }else{
+            return 0
+        }
+    })
+     
     console.log(query)
     console.log(searched)
     
@@ -38,7 +48,7 @@ function Table({query}){
         </thead>
         <tbody>
         {
-        searched.map((i)=>{
+        final.map((i)=>{
             const k = i.extras
             return (
             <tr key={i.id}>

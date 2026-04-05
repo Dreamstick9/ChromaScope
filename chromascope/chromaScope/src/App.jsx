@@ -5,10 +5,11 @@ import './App.css'
 
 function App() {
   const [query, setQuery] = useState('')
+  const [sort, setSort] = useState('')
   return (
     <>
-    <Search setQuery={setQuery}/>
-    <Table query={query}/>
+    <Search setQuery={setQuery} setSort={setSort}/>
+    <Table query={query} sort={sort}/>
 
     </>
   )
