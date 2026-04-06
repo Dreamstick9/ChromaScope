@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Search from './search-feature/search'
+import Search from './search-feature/Search'
 import Table from './api-features/Table'
 import Mempool from './api-features/Mempool'
 import Fees from './api-features/Fees'
