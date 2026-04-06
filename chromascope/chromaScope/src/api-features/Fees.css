@@ -1,0 +1,27 @@
+h1{
+    border: 3px solid black;
+    padding: 2px;
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #db890d;
+}
+
+h1:hover{
+    opacity: 0.89;
+}
+
+h2{
+    border: 3px solid black;
+    padding: 2px;
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+h2:hover{
+    background-color: #ebebeb;
+}
