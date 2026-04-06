@@ -18,9 +18,9 @@ function fee(){
     return (
         <>
         <h1>Fee Estimator</h1>
-        <h2>Highest Fee:- {fees.fastestFee} sat/vb</h2> 
-        <h2>Standard Fee:- {fees.hourFee} sat/vb</h2>
-        <h2>Economy Fee:- {fees.economyFee} sat/vb</h2>
+        <h2>Highest Fee:- <span className="bro">{fees.fastestFee} sat/vb</span></h2> 
+        <h2>Standard Fee:- <span className="bro">{fees.hourFee} sat/vb</span></h2>
+        <h2>Economy Fee:- <span className="bro">{fees.economyFee} sat/vb</span></h2>
         </>
     )
 }
