@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import Search from './search-feature/Search'
-import Table from './api-features/Table'
-import Mempool from './api-features/Mempool'
-import Fees from './api-features/Fees'
-import Mines from './api-features/Mining'
+import Table from './api-features/Table/Table.jsx'
+import Mempool from './api-features/Mempool/Mempool.jsx'
+import Fees from './api-features/Fees/Fees.jsx'
+import Mines from './api-features/Mining/Mining.jsx'
+import Track from './api-features/Tracker/Tracker.jsx'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Mempool />
     <Fees />
     <Mines />
+    <Track />
 
 
     </>
