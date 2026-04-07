@@ -60,4 +60,5 @@ async function fetchmempool(){
         return null
     }
 }
+export { fetchmempool }
 export default fetchmempool

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import './Mempool.css'
-import fetchmempool from "./Mempoolapi";
+import { fetchmempool } from "./Mempoolapi";
 function Mempool(){
     const [daa, showDaa] = useState([])
     useEffect(()=>{

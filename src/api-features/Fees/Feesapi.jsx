@@ -20,4 +20,5 @@ async function FetchFee() {
         
         
 }
+export { FetchFee }
 export default FetchFee

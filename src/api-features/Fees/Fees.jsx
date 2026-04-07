@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import './Fees.css'
-import FetchFee from "./Feesapi";
+import { FetchFee } from "./Feesapi";
 
 
 function fee(){

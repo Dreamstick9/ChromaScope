@@ -1,7 +1,7 @@
 import React from "react";
 
 const api = '/api/v1/blocks';
-import mockData from '../api.json';
+import mockData from '../../api.json';
 
 const mock = mockData;
 
@@ -15,4 +15,5 @@ async function fetchBlockInfo(){
         return []
     }
 }
+export { fetchBlockInfo }
 export default fetchBlockInfo

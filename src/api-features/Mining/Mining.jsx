@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import './Mining.css'
-import FetchMining from './Miningapi';
+import { FetchMining } from './Miningapi';
 function Mines(){
     const [mine, showmine] = useState(null)
     useEffect(()=>{

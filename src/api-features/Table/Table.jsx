@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import fetchBlockInfo from './Blocks';
+import { fetchBlockInfo } from './Blocks';
 import './Table.css'
 
 function Table({query, sort, filter}){

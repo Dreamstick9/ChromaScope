@@ -297,4 +297,5 @@ async function FetchMining(){
     }
 
 }
+export { FetchMining }
 export default FetchMining
