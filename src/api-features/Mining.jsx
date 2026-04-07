@@ -18,10 +18,12 @@ function Mines(){
         {
             mine.pools.map((i)=>{
             return (
-                <h2 key={i.poolId} style={{display:'flex', justifyContent:'space-between'}}>
-                    <span>{i.rank}{`)`} {i.name}</span>
-                    <span className="bro">{i.blockCount} blocks</span>
-                </h2>
+                <a href={i.link} target="_blank" className="mining_link">
+                    <h2 key={i.poolId} style={{display:'flex', justifyContent:'space-between'}}>
+                        <span>{i.rank}{`)`} {i.name}</span>
+                        <span className="bro">{i.blockCount} blocks</span>
+                    </h2>
+                </a>
             )
                 
             })
