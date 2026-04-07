@@ -26,8 +26,7 @@ HTML, css, Javascript, mempool.space api, corsproxy.io
 
 
 How to run:-
-yeah just clone this and open the index.html file
-it has no dependencies or anything
+It is a Vite/React based web page, so please refer to the package.json for the depedencies.
 
 
 Progress:-

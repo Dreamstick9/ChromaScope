@@ -8,6 +8,7 @@ label {
 
 input, label {
   margin: 0.4rem 0;
+  user-select: none;
 }
 
 input {
@@ -45,6 +46,7 @@ select {
   background-color: white;
   cursor: pointer;
   outline: none;
+  user-select: none;
 }
 select:hover {
   background-color: #db890d;
