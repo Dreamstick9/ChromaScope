@@ -19,9 +19,7 @@ function App() {
     <Fees />
     <Mines />
     <Track />
-
     
-
 
     </>
   )
