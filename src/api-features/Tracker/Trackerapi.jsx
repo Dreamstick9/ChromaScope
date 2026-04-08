@@ -14,9 +14,9 @@ const mock = {
 
 async function FetchTrack(){
     try{
-        // let k = await fetch(api)
-        // let data = await k.json()
-        return mock
+        let k = await fetch(api)
+        let data = await k.json()
+        return data
     }catch(error){
         console.log(error)
         return []
