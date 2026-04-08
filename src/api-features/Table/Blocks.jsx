@@ -7,9 +7,9 @@ const mock = mockData;
 
 async function fetchBlockInfo(){
     try{
-        let k = await fetch(api);
-        let data = await k.json()
-        return data
+        // let k = await fetch(api);
+        // let data = await k.json()
+        return mock
     }catch(error){
         console.log(error)
         return []
