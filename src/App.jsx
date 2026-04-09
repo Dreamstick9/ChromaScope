@@ -14,6 +14,7 @@ function App() {
   return (
     <>
     <Search setQuery={setQuery} setSort={setSort} setFilter = {setFilter}/>
+    <h1>Last 15 mined blocks</h1>
     <Table query={query} sort={sort} filter={filter}/>
     <Mempool />
     <Fees />

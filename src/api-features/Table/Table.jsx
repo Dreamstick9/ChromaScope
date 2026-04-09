@@ -65,7 +65,7 @@ function Table({query, sort, filter}){
             <tr key={i.id}>
                 <td>{i.height}</td>
                 <td>{k.pool.name}</td>
-                <td>{i.timestamp}</td>
+                <td>{new Date(i.timestamp).toLocaleDateString()}</td>
                 <td>{(k.totalFees/100000000).toFixed(3)} BTC</td>
                 <td>{i.tx_count}</td>
                 <td>{((i.size)/1000000).toFixed(2)} mb</td>
