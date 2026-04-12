@@ -16,8 +16,6 @@ Fee Estimator — real-time slow / medium / fast fee recommendations <br>
 Mempool Stats — live mempool size, transaction count, congestion level <br>
 Mining Pool Distribution — see which pools are mining the most blocks <br>
 Difficulty Adjustment Tracker — countdown to next difficulty change <br>
-Favorites — save and track addresses or transactions <br>
-Dark / Light Mode — theme toggle <br>
 Fully Responsive — works on mobile, tablet, desktop <br>
 
 
