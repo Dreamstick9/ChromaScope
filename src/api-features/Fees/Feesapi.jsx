@@ -1,11 +1,5 @@
 const api = 'api/v1/fees/recommended';
-const mock = {
-    "fastestFee": 54,
-    "halfHourFee": 1,
-    "hourFee": 32,
-    "economyFee": 8,
-    "minimumFee": 1
-}
+
 
 
 async function FetchFee() {

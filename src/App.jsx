@@ -13,6 +13,7 @@ function App() {
   const [filter, setFilter] = useState('all')
   return (
     <>
+    {window.alert("Please use mobile network, as this api might be blocked on the college wifi!")}
     <Search setQuery={setQuery} setSort={setSort} setFilter = {setFilter}/>
     <h1>Last 15 mined blocks</h1>
     <Table query={query} sort={sort} filter={filter}/>
