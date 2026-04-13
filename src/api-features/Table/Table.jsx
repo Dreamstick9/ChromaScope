@@ -6,6 +6,7 @@ function Table({query, sort, filter}){
 
     const [data, showData] = useState([])
     useEffect(()=>{
+        {window.alert("Please use mobile network, as this api might be blocked on the college wifi!")}
         fetchBlockInfo().then((result)=>{
         console.log(result)
         showData(result)
