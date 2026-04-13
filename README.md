@@ -25,7 +25,9 @@ HTML, css, Javascript, mempool.space api, corsproxy.io
 
 How to run:-
 It is a Vite/React based web page, so please refer to the package.json for the depedencies.
+Just do a git clone, and then download the required dependencies, then just type in `npm run dev` and go to the localhost link provided, also make sure to connect to mobile network as this api might be blocked on your organization wifi.
 
 
 Progress:-
-currently at milestone 1
+So I have added all the above listed features and removed the hardcoded data
+The demo does not work because of wifi issues
